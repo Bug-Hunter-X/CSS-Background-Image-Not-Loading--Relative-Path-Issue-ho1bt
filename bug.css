@@ -1,0 +1,10 @@
+The following CSS code snippet attempts to style an element with a background image, but it fails to display correctly due to an uncommon error: 
+```css
+.element {
+  background-image: url(image.png);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+```
+The issue arises when `image.png` is not found in the same directory as the CSS file, and the relative path is incorrect or missing.  This is a common issue when working with relative paths in CSS, but often overlooked by beginners. 
